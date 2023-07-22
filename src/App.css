@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* MainContent styling */
+.main-container {
+  min-height: 80vh;
+  padding: 60px 40px 0;
+}
+
+.col-md-6 {
+  border: 1px solid #ccc; 
+  padding: 15px; 
+  margin-bottom: 20px; 
+}
+
+/* Planner styling */
+.planner-container {
+  background: #ccc;
+}
+
+/* Table styling */
+.table-container {
+ background: #ccc;
+}
+
+/* Mobile styling */
+@media (max-width: 768px) {
+  .col-md-6 {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}
+/* planner.css */
+
+.planner {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.planner-header {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.planner-day {
+  margin-bottom: 20px;
+}
+
+.planner-slots {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .planner-slots {
+    flex-wrap: wrap;
+  }
+}
+/* plannerSlot.css */
+
+.planner-slot {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  width: 23%; /* Adjust the width as needed */
+  margin-bottom: 10px;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .planner-slot {
+    width: 48%; /* Adjust the width for smaller screens */
+  }
+}
