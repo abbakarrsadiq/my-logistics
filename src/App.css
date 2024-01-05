@@ -21,9 +21,9 @@ a {
 }
 
 .col-md-6 {
-  border: 1px solid #ccc; 
-  padding: 15px; 
-  margin-bottom: 20px; 
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 20px;
 }
 
 /* Planner styling */
@@ -33,7 +33,7 @@ a {
 
 /* Table styling */
 .table-container {
- background: #ccc;
+  background: #ccc;
 }
 
 /* Mobile styling */
@@ -75,7 +75,7 @@ a {
 /* plannerSlot.css */
 
 .planner-slot {
-  background-color: #fff;
+  background-color: red;
   border: 1px solid #ccc;
   padding: 10px;
   border-radius: 5px;

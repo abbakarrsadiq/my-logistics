@@ -20,7 +20,7 @@ export const Dragger = ({ customer }) => {
 
   return (
     <div ref={(node) => preview(drag(node))} style={{ opacity }} className="draggable-customer">
-      {customer.name}
+          {customer.name}
     </div>
   );
 };
